@@ -4,8 +4,8 @@ ext {
     compileSdkVersion = 25
     buildToolsVersion = "25.0.2"
 
-    versionCode = 11
-    versionName = "5.0.0"
+    versionCode = 12
+    versionName = "5.1.4"
 
     mapboxServicesVersion = "2.2.3"
     supportLibVersion = "25.4.0"
@@ -39,6 +39,10 @@ ext {
             supportV4              : "com.android.support:support-v4:${supportLibVersion}",
             supportDesign          : "com.android.support:design:${supportLibVersion}",
             supportRecyclerView    : "com.android.support:recyclerview-v7:${supportLibVersion}",
+
+            // wear
+            wearCompile            : "com.google.android.support:wearable:${wearableVersion}",
+            wearProvided           : "com.google.android.wearable:wearable:${wearableVersion}",
 
             // square crew
             timber                 : 'com.jakewharton.timber:timber:4.5.1',
